@@ -11,7 +11,7 @@ A list of things IE lacks that they might want to implement before developers co
 - [ ] Add leading IE version for XP (until it is considerably below market share)
 - [ ] Make the stylesheet its own file (beware, here be dragons)
 - [x] Other shit
-- [ ] Profane commit messages
+- [x] Profane commit messages
 
 ## Contributing
 Send a pull request. If people are all like "fix this" then fix it or don't. Fixing it comes with the added benefit of your formerly-shitty PR being merged.

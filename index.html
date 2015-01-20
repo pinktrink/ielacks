@@ -6,6 +6,10 @@
                 margin: 0;
                 padding: 0;
             }
+            a {
+                color: inherit;
+                text-decoration: inherit;
+            }
             html, body {
                 height: 100%;
                 width: 100%;
@@ -14,13 +18,13 @@
                 color: #666;
                 font-size: 100%;
             }
-            li {
+            main li {
                 font-size: 3em;
                 margin: 0.5em 5px;
                 display: block;
                 text-align: center;
             }
-            code {
+            main code {
                 font-family: monospace;
                 border: 1px solid #666;
                 border-radius: 2px;
@@ -28,42 +32,56 @@
                 background-color: #bbb;
                 display: inline-block;
             }
-            hr {
+            main hr {
                 width: 50%;
                 border: 0;
                 border-bottom: 1px solid #666;
                 margin: 0 auto;
             }
-            a {
-                color: inherit;
-                text-decoration: inherit;
+            main a {
                 display: block;
+            }
+            footer {
+                margin-top: 3em;
+            }
+            footer ul {
+                text-align: center;
+            }
+            footer li {
+                display: inline-block;
             }
         </style>
     </head>
     <body>
-        <ul>
-            <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/initial">The <code>initial</code> CSS value</a></li>
-            <hr />
-            <li><a href="https://developer.mozilla.org/en-US/docs/NavigatorUserMedia.getUserMedia"><code>navigator.getUserMedia</code></a></li>
-            <hr />
-            <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/background-blend-mode">CSS <code>background-blend-mode</code></a></li>
-            <hr />
-            <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/box-decoration-break">CSS <code>box-decoration-break</code></a></li>
-            <hr />
-            <li><a href="https://developer.mozilla.org/en-US/docs/Server-sent_events">Server-sent events</a></li>
-            <hr />
-            <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/position">CSS <code>position: sticky</code></a></li>
-            <hr />
-            <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/length">The <code>vmax</code> CSS unit</a></li>
-            <hr />
-            <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/-moz-appearance">CSS <code>appearance</code> directive (<code>-ms-appearance</code> even?)</a></li>
-            <hr />
-            <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a">Anchor <code>download</code> attribute</a></li>
-            <hr />
-            <li><a href="https://developer.mozilla.org/en-US/docs/Web/SVG/SVG_animation_with_SMIL">SVG SMIL animation</a></li>
-            <hr />
-            <li><a href="https://developer.mozilla.org/en-US/docs/Web/Security/HTTP_strict_transport_security">HTTP <code>Strict-Transport-Security</code> header</a></li>
-        </ul>
+        <main>
+            <ul>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/initial">The <code>initial</code> CSS value</a></li>
+                <hr />
+                <li><a href="https://developer.mozilla.org/en-US/docs/NavigatorUserMedia.getUserMedia"><code>navigator.getUserMedia</code></a></li>
+                <hr />
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/background-blend-mode">CSS <code>background-blend-mode</code></a></li>
+                <hr />
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/box-decoration-break">CSS <code>box-decoration-break</code></a></li>
+                <hr />
+                <li><a href="https://developer.mozilla.org/en-US/docs/Server-sent_events">Server-sent events</a></li>
+                <hr />
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/position">CSS <code>position: sticky</code></a></li>
+                <hr />
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/length">The <code>vmax</code> CSS unit</a></li>
+                <hr />
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/-moz-appearance">CSS <code>appearance</code> directive (<code>-ms-appearance</code> even?)</a></li>
+                <hr />
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a">Anchor <code>download</code> attribute</a></li>
+                <hr />
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/SVG/SVG_animation_with_SMIL">SVG SMIL animation</a></li>
+                <hr />
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/Security/HTTP_strict_transport_security">HTTP <code>Strict-Transport-Security</code> header</a></li>
+            </ul>
+        </main>
+        <footer>
+            <ul>
+                <li><a href="https://github.com/pinktrink/ielacks">Git me on Forkhub</a></li>
+            </ul>
+        </footer>
     </body>
 </html>
